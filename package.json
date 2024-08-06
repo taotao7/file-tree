@@ -1,6 +1,7 @@
 {
   "name": "@taotao7/file-tree",
   "version": "0.0.2",
+  "private": false,
   "description": "Returns all files in the selected directory after selection",
   "browser": "dist/index.js",
   "tsup": {
