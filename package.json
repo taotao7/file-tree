@@ -19,8 +19,16 @@
     "Edge >= 86",
     "Opera >= 72"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "file",
+    "browser file",
+    "file system access"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taotao7/file-tree"
+  },
+  "author": "taotao7",
   "license": "ISC",
   "packageManager": "pnpm@9.6.0",
   "devDependencies": {
