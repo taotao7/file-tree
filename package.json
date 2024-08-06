@@ -1,0 +1,31 @@
+{
+  "name": "@taotao7/file-tree",
+  "version": "0.0.2",
+  "description": "Returns all files in the selected directory after selection",
+  "browser": "dist/index.js",
+  "tsup": {
+    "entry": [
+      "index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "browserslist": [
+    "Chrome >= 86",
+    "Edge >= 86",
+    "Opera >= 72"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.6.0",
+  "devDependencies": {
+    "@types/wicg-file-system-access": "^2023.10.5",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
