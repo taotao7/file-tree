@@ -1,12 +1,13 @@
 {
   "name": "@taotao7/file-tree",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Returns all files in the selected directory after selection",
   "browser": "dist/index.js",
   "files": [
     "dist"
   ],
+  "types": "dist/index.d.ts",
   "tsup": {
     "entry": [
       "index.ts"
@@ -16,7 +17,7 @@
     "clean": true
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup --dts"
   },
   "browserslist": [
     "Chrome >= 86",
