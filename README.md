@@ -2,8 +2,8 @@
 
 A simple JavaScript library that allows users to select a folder and returns all the files within the selected directory.
 
-[!WARNING]
-This library  supports the following browsers:
+> [!WARNING]
+> This library  supports the following browsers:
 "Chrome >= 86",
 "Edge >= 86",
 "Opera >= 72"
